@@ -171,7 +171,7 @@ function update() {
                 Cooldown1 = true
                 setTimeout(() => {
                     Cooldown1 = false
-                }, 10000);
+                }, 1000);
             }
         } else if (Use1 == 1) {
             if (Cooldown1 == false) {
